@@ -1,4 +1,4 @@
-# ds2017
+# ds2018
 Veri Yapıları Dersi işlenen kodlar
 ## Kodları Çalıştırma
 Kodları iki farklı şekilde çalıştırabilirsiniz.
