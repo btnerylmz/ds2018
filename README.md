@@ -3,14 +3,14 @@ Veri Yapıları Dersi işlenen kodlar
 ## Kodları Çalıştırma
 Kodları iki farklı şekilde çalıştırabilirsiniz.
 ### Tüm dosyaları sıkıştırılmış olarak indirme
-[Bu bağlantı](https://github.com/sevketcakir/ds2017/archive/master.zip)ya tıklayarak tüm güncel kodları bilgisayarınıza sıkıştırılmış dosya olarak indirebilirsiniz.
+[Bu bağlantı](https://github.com/sevketcakir/ds2018/archive/master.zip)ya tıklayarak tüm güncel kodları bilgisayarınıza sıkıştırılmış dosya olarak indirebilirsiniz.
 ### Git kod versiyonlama yazılımını kullanarak güncel kodları siteden alma
 İlk defa kodları alırken komut satırında aşağıdaki kod çalıştırılabilir. Bu işlem güncel kodları ds2017 klasörü içine kopyalar/indirir.
 ```sh
-git clone https://github.com/sevketcakir/ds2017.git
+git clone https://github.com/sevketcakir/ds2018.git
 ```
 Yapılan değişiklikleri siteden almak için:
-- Yerelde kodlarda değişiklik yapılmamışsa ds2017 klasöründe aşağıdaki kod çalıştırılabilir.
+- Yerelde kodlarda değişiklik yapılmamışsa ds2018 klasöründe aşağıdaki kod çalıştırılabilir.
 ```sh
 git pull origin master
 ```
