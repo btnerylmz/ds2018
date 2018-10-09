@@ -1,10 +1,10 @@
 public class MyQueue<T> {
     private int front=-1;
     private int rear=-1;
-    T[] dizi;
+    private T[] dizi;
 
     public MyQueue() {
-        dizi=(T[]) new Object[10];
+        dizi=(T[]) new Object[20];
     }
 
     public MyQueue(int boyut) {
@@ -21,19 +21,19 @@ public class MyQueue<T> {
 
     public void enqueue(T eleman) {
         if(isFull())
-            throw new RuntimeException("Queue is full");
-        if(isEmpty())
-            front=0;
+            throw new RuntimeException("Kuyruk dolu");
         dizi[++rear]=eleman;
+        if(front==-1)
+            front=0;
     }
 
     public T dequeue(){
         if(isEmpty())
-            throw new RuntimeException("Queue is empty");
-        T donen=dizi[front++];
+            throw new RuntimeException("Kuyruk boş");
+        T donecek=dizi[front++];
         if(front>rear)
             front=rear=-1;
-        return donen;
+        return donecek;
     }
     public int count() {
         if(isEmpty())
@@ -42,8 +42,10 @@ public class MyQueue<T> {
     }
 
     public void print() {
-        for (int i = front; i <= rear ; i++) {
-            System.out.println(dizi[i]);
+        if(!isEmpty()) {
+            for (int i = front; i <= rear; i++) {
+                System.out.println(dizi[i]);
+            }
         }
     }
 }

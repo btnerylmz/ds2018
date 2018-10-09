@@ -12,5 +12,7 @@ public class StackMain {
         s.pop();
         s.push(12);
         s.print();
+        while (!s.isFull())
+            s.push(1);
     }
 }
