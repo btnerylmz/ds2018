@@ -2,7 +2,7 @@ package doublyll;
 
 import java.util.Iterator;
 
-public abstract class DoublyLinkedList<T> implements Iterable<T> {
+public class DoublyLinkedList<T> implements Iterable<T> {
     private Node<T> head;
     private Node<T> tail;
     private int size;
@@ -88,6 +88,6 @@ public abstract class DoublyLinkedList<T> implements Iterable<T> {
         return iterator;
     }
 
-    public abstract void insertAt(int index, T value);
-    public abstract T removeAt(int index);
+    //public abstract void insertAt(int index, T value);
+    //public abstract T removeAt(int index);
 }
