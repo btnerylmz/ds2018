@@ -5,7 +5,7 @@ Kodları iki farklı şekilde çalıştırabilirsiniz.
 ### Tüm dosyaları sıkıştırılmış olarak indirme
 [Bu bağlantı](https://github.com/sevketcakir/ds2018/archive/master.zip)ya tıklayarak tüm güncel kodları bilgisayarınıza sıkıştırılmış dosya olarak indirebilirsiniz.
 ### Git kod versiyonlama yazılımını kullanarak güncel kodları siteden alma
-İlk defa kodları alırken komut satırında aşağıdaki kod çalıştırılabilir. Bu işlem güncel kodları ds2017 klasörü içine kopyalar/indirir.
+İlk defa kodları alırken komut satırında aşağıdaki kod çalıştırılabilir. Bu işlem güncel kodları ds2018 klasörü içine kopyalar/indirir.
 ```sh
 git clone https://github.com/sevketcakir/ds2018.git
 ```
